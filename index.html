@@ -4,58 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lunch Lady Land!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #0056b3;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .menu-section {
-            margin-bottom: 25px;
-            padding: 15px;
-            border: 1px solid #eee;
-            border-radius: 5px;
-            background-color: #fafafa;
-        }
-        .menu-section h2 {
-            color: #333;
-            margin-top: 0;
-        }
-        .menu-section ul {
-            list-style: none;
-            padding: 0;
-        }
-        .menu-section li {
-            margin-bottom: 10px;
-        }
-        .menu-section a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .menu-section a:hover {
-            text-decoration: underline;
-        }
-        .note {
-            font-style: italic;
-            color: #666;
-            text-align: center;
-            margin-top: 30px;
-        }
+            <style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@700&display=swap');
+
+body {
+    font-family: 'Comic Neue', 'Quicksand', Arial, cursive, sans-serif;
+    background: #191c26;
+    color: #f5f6fa;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #23243a;
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 0 24px 0 #0006;
+    border: 2px solid #b388ff;
+}
+
+h1 {
+    color: #ffb7b2;
+    text-align: center;
+    margin-bottom: 26px;
+    font-size: 2.6em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 #613dc1, 0 0 12px #b388ff60;
+}
+
+.menu-section {
+    margin-bottom: 28px;
+    padding: 20px;
+    border-radius: 9px;
+    background: linear-gradient(120deg, #ffc2e2 80%, #a5ffd6 100%);
+    box-shadow: 0 2px 16px 0 #ffb7b270;
+    border: 2px solid #613dc1;
+}
+
+.menu-section h2 {
+    color: #613dc1;
+    margin-top: 0;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0 #ffb7b2;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section li {
+    margin-bottom: 12px;
+    font-size: 1.15em;
+}
+
+.menu-section a {
+    color: #613dc1;
+    background: #f9f871;
+    padding: 5px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.25s, color 0.25s, box-shadow 0.3s;
+    font-family: 'Comic Neue', 'Quicksand', Arial, sans-serif;
+    box-shadow: 0 2px 6px #ffc2e277;
+    text-decoration: none;
+}
+
+.menu-section a:hover {
+    background: #b388ff;
+    color: #fff;
+    box-shadow: 0 4px 16px #ffb7b277;
+    text-decoration: underline wavy #ffb7b2;
+}
+
+.note {
+    font-style: italic;
+    color: #a5ffd6;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 0 #613dc1;
+}
+</style>
     </style>
 </head>
 <body>
